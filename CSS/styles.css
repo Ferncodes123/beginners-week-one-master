@@ -7,6 +7,8 @@ body {
 
 .wrapper{
   display: flex;
+  width: 150%;
+  height:30%;
 }
 
 
@@ -18,26 +20,30 @@ h1{
   font-size: 5em
 }
 h2{
-  font-size: 2.5em;
+  font-size: 1.1em;
 }
 img{
   display: block;
   padding: 10px;
   margin: 0 auto;
-  border-radius: 100px;
+  border-radius: 30px;
   width: 90%;
   height: 20em;
+}
+
+
+
 }
 p{
   width: 40%;
   margin: 10vh 10vw;
   font-size: 2em;
 }
-.dropdown-item {color: yellow;
+.dropdown-item {color: grey;
 
 }
 
-.nav-item .nav-link { color: yellow;
+.nav-item .nav-link { color: grey;
 
 }
 
@@ -64,12 +70,17 @@ li#lowest{
   margin-top: 14%
 }
 
+
 div.contrast{
-  background-color: orange;
+  background-color: green;
+  background-position: center;
   color : rgb(255,255,255);
+  text-align: center;
+
   display: flex;
   align-items: center;
   flex-direction: colum;
+
 }
 
 ul{
@@ -84,5 +95,5 @@ li{
 li:hover{
   font-size: 1.2em;
   color: blue;
-  background-color: yellow;
+  background-color: lightgreen;
 }
